@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Solarized Dark",
+		"restoreTerminals.terminals": [
+			{
+			  "splitTerminals": [
+				{
+				  "name": "build",
+				  "commands": ["cls"],
+				  "color": "blue"
+				},
+				{
+				  "name": "dev",
+				  "commands": ["cls"],
+				  "color": "yellow"
+				}
+			  ]
+			},
+			{
+			  "splitTerminals": [
+				{
+				  "name": "git",
+				  "commands": ["cls"],
+				  "color": "red"
+				}
+			  ]
+			},
+			{
+				"splitTerminals": [
+				  {
+					"name": "cmd",
+					"commands": ["cls"]
+				  }
+				]
+			  }
+		  ]
+
+	}
+}

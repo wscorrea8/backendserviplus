@@ -1,0 +1,28 @@
+﻿# creación de package.json
+npm init
+
+# Librerías necesarias
+npm i cors # Permitir o bloquear el acceso al backend
+npm i morgan # Capurador de logs de las peticiones http
+npm i express # Desarrollar el JS en el backend
+npm i mongoose # Para conectar a MongoDB
+npm i bcryptjs # Para encriptar
+npm i jsonwebtoken # Entregar un token al frontend
+
+# Instalar la extensión dotenv en VSCode
+
+# Agregar TypeScript
+tsc --init
+
+# Quitar comentario tsconfig.json en la linea 52
+"outDir": "./build"
+
+# Agregar dos script en ek package.json
+"dev": "nodemon build/index.js",
+"build": "tsc -w"
+
+# Para iniciar el monitoreo del backend
+npm run build
+
+# Lanzar el backend
+npm run dev
